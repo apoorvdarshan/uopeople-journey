@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync, existsSync} from 'node:fs';
-import {settledTotal, safeUrl} from './lib.js';
+import {convertedTotal, convertUsd, rowValue, settledTotal, safeUrl} from './lib.js';
 
 const data = JSON.parse(readFileSync(new URL('./data.json', import.meta.url)));
 
@@ -24,9 +24,33 @@ test('published totals reconcile to the evidence ledger without duplicate IDs', 
   assert.equal(new Set(data.spending.map(row=>row.id)).size, data.spending.length);
   assert.equal(settledTotal(data.spending, 'USD'), 558.08);
   assert.equal(settledTotal(data.spending, 'INR'), 2099);
-  assert.equal(data.summary.confirmedTotal, settledTotal(data.spending, data.summary.currency));
   assert.equal(settledTotal(data.spending.filter(row=>row.provider==='UoPeople'), 'USD'), 427);
   assert.equal(settledTotal(data.spending.filter(row=>row.provider==='ProctorU'), 'USD'), 52.08);
+});
+
+test('overall total is in US dollars, with the rupee payment converted on its payment date', () => {
+  const inr = data.spending.filter(row => row.currency === 'INR');
+  assert.equal(inr.length, 1);
+  assert.equal(inr[0].usdAmount, Math.round(inr[0].amount / inr[0].fxRate * 100) / 100);
+  assert.equal(convertedTotal(data.spending, 'USD'), 581.89);
+  assert.equal(data.summary.confirmedTotal, convertedTotal(data.spending, 'USD'));
+  assert.equal(data.summary.additionalTotals, undefined);
+});
+
+test('currency switch converts from USD and keeps exact amounts paid in the chosen currency', () => {
+  const rates = {INR: 88, EUR: 0.5, JPY: 150.4};
+  const rows = [
+    {currency:'USD', amount:10, status:'paid'},
+    {currency:'INR', amount:2099, usdAmount:23.81, status:'paid'},
+    {currency:'USD', amount:2100, status:'scholarship'},
+    {currency:'USD', amount:1, status:'refunded'},
+  ];
+  assert.equal(rowValue(rows[1], 'INR', rates), 2099);
+  assert.equal(rowValue(rows[0], 'INR', rates), 880);
+  assert.equal(convertedTotal(rows, 'INR', rates), 880 + 2099 - 88);
+  assert.equal(convertedTotal(rows, 'EUR', rates), 5 + 11.91 - 0.5);
+  assert.equal(convertUsd(10.33, 'JPY', rates), 1554);
+  assert.equal(convertUsd(10, 'XYZ', rates), null);
 });
 
 test('accepted transfers and earned credits reconcile to the bachelor transcript', () => {

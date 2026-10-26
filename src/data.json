@@ -5,19 +5,13 @@
     "description": "My University of the People journey, from the first application to two computer science degrees. The costs, transfer credits, and milestones I can document.",
     "lastVerified": "2026-10-27",
     "period": "2025 – 2026",
-    "coverageNote": "Confirmed expenses: $558.08 USD + ₹2,099 INR. Based on receipts, the university ledger and academic records. Currencies are not converted or added together."
+    "coverageNote": "Confirmed expenses: $581.89. Based on receipts, the university ledger and academic records. The one rupee payment is converted to dollars at the ECB reference rate on its payment date."
   },
   "summary": {
-    "confirmedTotal": 558.08,
+    "confirmedTotal": 581.89,
     "currency": "USD",
-    "additionalTotals": [
-      {
-        "currency": "INR",
-        "amount": 2099
-      }
-    ],
     "scholarshipTotal": 2100,
-    "scholarshipNote": "$2,100 assessment scholarship awarded; 10 course assessments confirmed covered. Application fee covered separately by a grant. Awarded support is excluded from personal spending.",
+    "scholarshipNote": "{amount} assessment scholarship awarded; 10 course assessments confirmed covered. Application fee covered separately by a grant. Awarded support is excluded from personal spending.",
     "transferCredits": 90,
     "totalCredits": 120,
     "startDate": "2025-06-19",
@@ -58,7 +52,10 @@
       "currency": "INR",
       "status": "paid",
       "source": "Coursera purchase receipt, 19 Sep 2025; cancellation confirmation, 24 Sep 2025",
-      "note": "Receipt total includes GST. Access continued until 18 Oct 2025 after renewal was cancelled. Cancellation was not a refund. This subscription overlaps the September Google/IBM credentials used for transfer."
+      "note": "Receipt total includes GST. Access continued until 18 Oct 2025 after renewal was cancelled. Cancellation was not a refund. This subscription overlaps the September Google/IBM credentials used for transfer. Converted to USD at ₹88.16 per $1, the ECB reference rate on the payment date (via Frankfurter).",
+      "usdAmount": 23.81,
+      "fxRate": 88.16,
+      "fxDate": "2025-09-19"
     },
     {
       "id": "uopeople-0",
@@ -203,7 +200,7 @@
     {
       "date": "2025-09-19",
       "title": "One paid month of Coursera Plus",
-      "description": "Paid ₹2,099 including GST. Google credentials were issued on 20 September and IBM credentials on 24 September in the supplied Credly transcript. Renewal was cancelled on 24 September; access lasted to 18 October.",
+      "description": "Paid ₹2,099 including GST (about $23.81). Google credentials were issued on 20 September and IBM credentials on 24 September in the supplied Credly transcript. Renewal was cancelled on 24 September; access lasted to 18 October.",
       "type": "transfer",
       "source": "Coursera receipt + cancellation + Credly transcript"
     },
@@ -824,7 +821,7 @@
   ],
   "notes": [
     "This is my historical experience, not a quoted price or a promise of admission, scholarship or transfer approval for someone else. Check the linked official policies for your own application.",
-    "The cash total includes $357 in Coursera transfer processing, $70 in post-graduation documents, $79 for Sophia and $52.08 for three ProctorU purchases, plus ₹2,099 for Coursera Plus. Scholarship awards and waived fees are excluded. Matching bank/payment-provider emails are not added again.",
+    "The cash total includes $357 in Coursera transfer processing, $70 in post-graduation documents, $79 for Sophia and $52.08 for three ProctorU purchases, plus ₹2,099 for Coursera Plus ($23.81 at the 19 Sep 2025 ECB rate). Scholarship awards and waived fees are excluded. Matching bank/payment-provider emails are not added again.",
     "Scholarship amount awarded and amount used are different. The $2,100 award covered up to 15 assessments at $140 each. The report marks all 10 assessments taken as covered; it does not print the dollar value actually drawn.",
     "Coursera rows are 21 accepted ACE subject-credit entries, not 21 separate certificate subscriptions. Program links are associated by matching ACE subject names to the Credly record; individual source-to-UoPeople destination pairs are not documented.",
     "Sophia: 12 courses completed, 9 accepted, 27 transferred credits. Art History I, Introduction to Ethics and Workplace Communication were completed but do not appear as external credits on the final transcript. Calculus supplied 4 recommended credits but 3 were accepted.",

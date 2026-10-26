@@ -1,8 +1,41 @@
 export const hasAmount = (value) => typeof value === 'number' && Number.isFinite(value);
 
-export function money(value, currency = 'USD') {
+export function money(value, currency = 'USD', {whole = false} = {}) {
   if (!hasAmount(value)) return 'Not verified';
-  return new Intl.NumberFormat('en-US', { style: 'currency', currency, maximumFractionDigits: 2, minimumFractionDigits: 2 }).format(value);
+  const text = new Intl.NumberFormat('en-US', { style: 'currency', currency }).format(value);
+  return whole ? text.replace(/\.00$/, '') : text;
+}
+
+export const minorUnits = (currency) => new Intl.NumberFormat('en-US', { style: 'currency', currency }).resolvedOptions().maximumFractionDigits;
+
+const roundTo = (value, currency) => { const factor = 10 ** minorUnits(currency); return Math.round(value * factor) / factor; };
+
+export function currencyName(currency) {
+  try { return new Intl.DisplayNames(['en'], { type: 'currency' }).of(currency); } catch { return currency; }
+}
+
+// Rates are units of `currency` per US dollar. Rows paid in the chosen currency keep their exact original amount.
+export function convertUsd(value, currency = 'USD', rates = {}) {
+  if (!hasAmount(value)) return null;
+  const rate = currency === 'USD' ? 1 : rates[currency];
+  return hasAmount(rate) ? roundTo(value * rate, currency) : null;
+}
+
+export function rowValue(row, currency = 'USD', rates = {}) {
+  if (!hasAmount(row.amount)) return null;
+  if (row.currency === currency) return row.amount;
+  return convertUsd(row.currency === 'USD' ? row.amount : row.usdAmount, currency, rates);
+}
+
+export function convertedTotal(rows, currency = 'USD', rates = {}) {
+  const factor = 10 ** minorUnits(currency);
+  return rows.reduce((sum, row) => {
+    const value = rowValue(row, currency, rates);
+    if (value === null) return sum;
+    if (row.status === 'paid') return sum + Math.round(value * factor);
+    if (row.status === 'refunded') return sum - Math.round(value * factor);
+    return sum;
+  }, 0) / factor;
 }
 
 export function dateLabel(value, compact = false) {
@@ -34,7 +67,7 @@ export function exportCsv(rows) {
     if (/^[=+@\t\r]/.test(text) || (/^-/.test(text) && !/^-\d+(\.\d+)?$/.test(text))) text = `'${text}`;
     return `"${text.replaceAll('"', '""')}"`;
   };
-  const entries = [['Date', 'Expense', 'Provider', 'Category', 'Amount', 'Currency', 'Status', 'Source', 'Note'], ...rows.map(row => [row.date, row.label, row.provider, row.category, row.amount, row.currency, row.status, row.source, row.note])];
+  const entries = [['Date', 'Expense', 'Provider', 'Category', 'Amount', 'Currency', 'Amount (USD)', 'Status', 'Source', 'Note'], ...rows.map(row => [row.date, row.label, row.provider, row.category, row.amount, row.currency, row.currency === 'USD' ? row.amount : row.usdAmount, row.status, row.source, row.note])];
   const blob = new Blob(['\uFEFF' + entries.map(row => row.map(quote).join(',')).join('\r\n')], {type: 'text/csv;charset=utf-8;'});
   const url = URL.createObjectURL(blob);
   const anchor = document.createElement('a');
