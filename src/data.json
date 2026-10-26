@@ -1,0 +1,1062 @@
+{
+  "meta": {
+    "name": "Apoorv Darshan",
+    "title": "My UoPeople journey",
+    "description": "My University of the People journey, from the first application to two computer science degrees. The costs, transfer credits, and milestones I can document.",
+    "lastVerified": "2026-10-27",
+    "period": "2025 – 2026",
+    "coverageNote": "Confirmed expenses: $558.08 USD + ₹2,099 INR. Based on receipts, the university ledger and academic records. Currencies are not converted or added together."
+  },
+  "summary": {
+    "confirmedTotal": 558.08,
+    "currency": "USD",
+    "additionalTotals": [
+      {
+        "currency": "INR",
+        "amount": 2099
+      }
+    ],
+    "scholarshipTotal": 2100,
+    "scholarshipNote": "$2,100 assessment scholarship awarded; 10 course assessments confirmed covered. Application fee covered separately by a grant. Awarded support is excluded from personal spending.",
+    "transferCredits": 90,
+    "totalCredits": 120,
+    "startDate": "2025-06-19",
+    "endDate": "2026-06-10"
+  },
+  "spending": [
+    {
+      "id": "application-grant",
+      "date": "2025-04-24",
+      "label": "Application fee · covered by grant",
+      "provider": "UoPeople",
+      "category": "University",
+      "amount": 0,
+      "currency": "USD",
+      "status": "scholarship",
+      "source": "Admissions email: Great News! Your application fee is covered!, 24 Apr 2025 IST",
+      "note": "The email explicitly awards a grant covering the application fee. No personal cash payment counted."
+    },
+    {
+      "id": "course-scholarship",
+      "date": "2025-05-14",
+      "label": "Assessment fees · scholarship",
+      "provider": "UoPeople",
+      "category": "University",
+      "amount": 2100,
+      "currency": "USD",
+      "status": "scholarship",
+      "source": "Financial Aid award email, 14 May 2025; UoPeople transaction report, 27 Oct 2026",
+      "note": "$2,100 was awarded at $140 per course for 15 assessments. The ledger confirms 10 actual assessment entries covered. The award is not cash paid by me and is not a claim that all $2,100 was used."
+    },
+    {
+      "id": "coursera-plus",
+      "date": "2025-09-19",
+      "label": "Coursera Plus · one month",
+      "provider": "Coursera",
+      "category": "Transfer learning",
+      "amount": 2099,
+      "currency": "INR",
+      "status": "paid",
+      "source": "Coursera purchase receipt, 19 Sep 2025; cancellation confirmation, 24 Sep 2025",
+      "note": "Receipt total includes GST. Access continued until 18 Oct 2025 after renewal was cancelled. Cancellation was not a refund. This subscription overlaps the September Google/IBM credentials used for transfer."
+    },
+    {
+      "id": "uopeople-0",
+      "date": "2025-10-13",
+      "label": "Coursera credit transfer · 21 × $17",
+      "provider": "UoPeople",
+      "category": "University",
+      "amount": 357,
+      "currency": "USD",
+      "status": "paid",
+      "source": "UoPeople transaction report (27 Oct 2026) + matching payment receipt email",
+      "note": "The PayPal authorization and university receipt describe the same payment and are counted once. Dates follow the university ledger."
+    },
+    {
+      "id": "sophia-month",
+      "date": "2025-10-31",
+      "label": "Sophia Learning · one month",
+      "provider": "Sophia Learning",
+      "category": "Transfer learning",
+      "amount": 79,
+      "currency": "USD",
+      "status": "paid",
+      "source": "Sophia receipt and bank debit email, 31 Oct 2025",
+      "note": "$99 membership less a $20 discount. Access through 29 Nov 2025. Renewal cancelled on purchase day; no refund found. The INR bank debit is the same purchase, not an additional expense."
+    },
+    {
+      "id": "sophia-transfer",
+      "date": "",
+      "label": "Sophia credit transfer · 9 courses",
+      "provider": "UoPeople",
+      "category": "University",
+      "amount": 0,
+      "currency": "USD",
+      "status": "waived",
+      "source": "Final transcript, transaction report and official Sophia–UoPeople partnership",
+      "note": "27 credits accepted on the final transcript. No separate Sophia transfer payment appears in the university ledger; the partnership covers up to 20 Sophia courses. Exact transfer-posting date is not documented."
+    },
+    {
+      "id": "proctor-algebra",
+      "date": "2025-11-20",
+      "label": "ProctorU · College Algebra",
+      "provider": "ProctorU",
+      "category": "Proctoring",
+      "amount": 16.8,
+      "currency": "USD",
+      "status": "paid",
+      "source": "Provided My Orders screenshot + saved ProctorU order receipt",
+      "note": "Purchase date is 20 Nov 2025. Receipt shows the exam session on 11 Jan 2026; these are one purchase."
+    },
+    {
+      "id": "proctor-data",
+      "date": "2026-02-09",
+      "label": "ProctorU · Data Structures",
+      "provider": "ProctorU",
+      "category": "Proctoring",
+      "amount": 17.64,
+      "currency": "USD",
+      "status": "paid",
+      "source": "ProctorU booking confirmation + My Orders screenshot + matching bank debit",
+      "note": "CS 3303. Purchased 9 Feb 2026 for the 29 Mar 2026 exam. The booking email explicitly lists $17.64. Bank notification is the same purchase, counted once."
+    },
+    {
+      "id": "proctor-languages",
+      "date": "2026-04-16",
+      "label": "ProctorU · Comparative Programming Languages",
+      "provider": "ProctorU",
+      "category": "Proctoring",
+      "amount": 17.64,
+      "currency": "USD",
+      "status": "paid",
+      "source": "Provided My Orders screenshot + Link receipt + matching bank debit email",
+      "note": "CS 4402. Purchased 16 Apr 2026 for the 4 Jun 2026 exam. Booking, Link receipt, screenshot and bank email refer to one purchase."
+    },
+    {
+      "id": "uopeople-1",
+      "date": "2026-07-15",
+      "label": "Graduation document request",
+      "provider": "UoPeople",
+      "category": "University",
+      "amount": 25,
+      "currency": "USD",
+      "status": "paid",
+      "source": "UoPeople transaction report (27 Oct 2026) + matching payment receipt email",
+      "note": "The PayPal authorization and university receipt describe the same payment and are counted once. Dates follow the university ledger."
+    },
+    {
+      "id": "uopeople-2",
+      "date": "2026-07-15",
+      "label": "Official transcript",
+      "provider": "UoPeople",
+      "category": "University",
+      "amount": 15,
+      "currency": "USD",
+      "status": "paid",
+      "source": "UoPeople transaction report (27 Oct 2026) + matching payment receipt email",
+      "note": "The PayPal authorization and university receipt describe the same payment and are counted once. Dates follow the university ledger."
+    },
+    {
+      "id": "uopeople-3",
+      "date": "2026-09-09",
+      "label": "Official transcript",
+      "provider": "UoPeople",
+      "category": "University",
+      "amount": 30,
+      "currency": "USD",
+      "status": "paid",
+      "source": "UoPeople transaction report (27 Oct 2026) + matching payment receipt email",
+      "note": "The PayPal authorization and university receipt describe the same payment and are counted once. Dates follow the university ledger."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025-04-24",
+      "title": "Accepted, with the application fee covered",
+      "description": "Welcome and financial-aid emails confirm the saved place and an application-fee grant. This is the first verified admission milestone, not a claim about the exact application-form submission time.",
+      "type": "admission",
+      "source": "Admissions + Financial Aid emails, 24 Apr 2025 IST",
+      "milestone": true
+    },
+    {
+      "date": "2025-05-14",
+      "title": "$2,100 scholarship confirmed",
+      "description": "Awarded $140 per course assessment for 15 courses. The later transaction report records 10 course assessments covered.",
+      "type": "funding",
+      "source": "Financial Aid award email"
+    },
+    {
+      "date": "2025-06-19",
+      "title": "My first UoPeople term begins",
+      "description": "Started with Online Education Strategies (UNIV 1001). This was Foundations study; formal degree-seeking status came later.",
+      "type": "study",
+      "source": "Signed enrollment agreement + transcript",
+      "milestone": true
+    },
+    {
+      "date": "2025-07-18",
+      "title": "Tried Coursera Plus",
+      "description": "Started a seven-day trial and cancelled on 19 July, before the scheduled charge. No trial payment is included.",
+      "type": "transfer",
+      "source": "Coursera welcome and cancellation emails"
+    },
+    {
+      "date": "2025-09-19",
+      "title": "One paid month of Coursera Plus",
+      "description": "Paid ₹2,099 including GST. Google credentials were issued on 20 September and IBM credentials on 24 September in the supplied Credly transcript. Renewal was cancelled on 24 September; access lasted to 18 October.",
+      "type": "transfer",
+      "source": "Coursera receipt + cancellation + Credly transcript"
+    },
+    {
+      "date": "2025-10-10",
+      "title": "Coursera transfer evaluation completed",
+      "description": "The transfer office asked me to select approved courses and pay the processing fee. This was an evaluation decision, before the payment below.",
+      "type": "transfer",
+      "source": "Transfer-credit office and advisor emails, 10 Oct 2025"
+    },
+    {
+      "date": "2025-10-13",
+      "title": "Paid for 21 Coursera transfer entries",
+      "description": "Paid $357 in transfer processing fees: 21 accepted subject-credit entries × $17. The final transcript confirms 63 Coursera credits; the payment date is not a verified posting date.",
+      "type": "transfer",
+      "source": "Transfer evaluation + payment receipt + final transcript"
+    },
+    {
+      "date": "2025-10-31",
+      "title": "A month of Sophia Learning",
+      "description": "Paid $79 after a $20 discount. Completed 12 courses; 9 appear on my final UoPeople transcript, contributing 27 credits.",
+      "type": "transfer",
+      "source": "Sophia receipt + Sophia transcript + final UoPeople transcript"
+    },
+    {
+      "date": "2025-11-13",
+      "title": "Formal degree-seeking enrollment",
+      "description": "The final transcript records this enrollment date after Foundations study. This is why June and November both appear in my records.",
+      "type": "study",
+      "source": "Official bachelor transcript"
+    },
+    {
+      "date": "2025-11-14",
+      "title": "Submitted Sophia courses for transfer review",
+      "description": "Submitted the completed Sophia documents. The advisor confirmed they were under review on 18 November.",
+      "type": "transfer",
+      "source": "Sophia transfer correspondence, 14–18 Nov 2025"
+    },
+    {
+      "date": "2025-11-26",
+      "title": "Sophia transfer evaluation updated",
+      "description": "An earlier request was cancelled and resubmitted. The evaluation email still said pending payment; the final transcript is the evidence that nine courses were accepted.",
+      "type": "transfer",
+      "source": "Advisor and Transfer Credit emails, 26 Nov 2025; final transcript"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "Associate of Science awarded",
+      "description": "Computer Science · GPA 3.88/4.00 · High Honors.",
+      "type": "degree",
+      "source": "Associate diploma + official transcript",
+      "milestone": true
+    },
+    {
+      "date": "2026-06-10",
+      "title": "Bachelor of Science awarded",
+      "description": "Computer Science · GPA 3.77/4.00 · Magna Cum Laude. 120 credits: 90 transferred and 30 earned at UoPeople.",
+      "type": "degree",
+      "source": "Bachelor diploma + official transcript",
+      "milestone": true
+    },
+    {
+      "date": "2026-07-15",
+      "title": "Ordered graduation documents and transcript",
+      "description": "Paid $25 for the graduation document request and $15 for an official transcript.",
+      "type": "documents",
+      "source": "UoPeople payment receipts + transaction report"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Official digital graduation documents arrived",
+      "description": "Student Services emailed the official graduation documents. This delivery date is separate from the 10 June degree conferral date.",
+      "type": "documents",
+      "source": "Student Services graduation-document email, 20 Jul 2026"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Another official transcript",
+      "description": "Paid $30 for an additional official transcript. This is a post-graduation expense included in the recorded total.",
+      "type": "documents",
+      "source": "UoPeople payment receipt + transaction report"
+    }
+  ],
+  "courses": [
+    {
+      "id": "transfer-0",
+      "code": "SOPH-0005",
+      "title": "Introduction to Statistics",
+      "provider": "Sophia Learning",
+      "sourceCourse": "Introduction to Statistics",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-11-01",
+      "url": "https://www.sophia.org/online-courses/math/introduction-to-statistics/",
+      "linkLabel": "View Sophia course",
+      "note": "Accepted as MATH 1280 · Introduction to Statistics.",
+      "source": "Official bachelor transcript, Sophia unofficial transcript, saved transfer evaluation",
+      "equivalentCode": "MATH 1280",
+      "equivalentTitle": "Introduction to Statistics"
+    },
+    {
+      "id": "transfer-1",
+      "code": "SOPH-0029",
+      "title": "Art History II",
+      "provider": "Sophia Learning",
+      "sourceCourse": "Art History II",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-11-07",
+      "url": "https://www.sophia.org/online-courses/humanities/art-history-ii/",
+      "linkLabel": "View Sophia course",
+      "note": "Accepted as AHIST 1401 · Art History.",
+      "source": "Official bachelor transcript, Sophia unofficial transcript, saved transfer evaluation",
+      "equivalentCode": "AHIST 1401",
+      "equivalentTitle": "Art History"
+    },
+    {
+      "id": "transfer-2",
+      "code": "SOPH-0060",
+      "title": "Calculus I",
+      "provider": "Sophia Learning",
+      "sourceCourse": "Calculus I",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-11-08",
+      "url": "https://www.sophia.org/online-courses/math/calculus-i/",
+      "linkLabel": "View Sophia course",
+      "note": "Accepted as MATH 1211 · Calculus.  Sophia recommends 4 credits; UoPeople accepted 3.",
+      "source": "Official bachelor transcript, Sophia unofficial transcript, saved transfer evaluation",
+      "equivalentCode": "MATH 1211",
+      "equivalentTitle": "Calculus"
+    },
+    {
+      "id": "transfer-3",
+      "code": "SOPH-0047",
+      "title": "Introduction to Relational Databases",
+      "provider": "Sophia Learning",
+      "sourceCourse": "Introduction to Relational Databases",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-11-08",
+      "url": "https://www.sophia.org/online-courses/computer-science-and-it/introduction-to-relational-databases/",
+      "linkLabel": "View Sophia course",
+      "note": "Accepted as CS 3306 · Databases 2.",
+      "source": "Official bachelor transcript, Sophia unofficial transcript, saved transfer evaluation",
+      "equivalentCode": "CS 3306",
+      "equivalentTitle": "Databases 2"
+    },
+    {
+      "id": "transfer-4",
+      "code": "SOPH-0048",
+      "title": "Introduction to Psychology",
+      "provider": "Sophia Learning",
+      "sourceCourse": "Introduction to Psychology",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-11-10",
+      "url": "https://www.sophia.org/online-courses/social-science/introduction-to-psychology/",
+      "linkLabel": "View Sophia course",
+      "note": "Accepted as PSYC 1504 · Introduction to Psychology.",
+      "source": "Official bachelor transcript, Sophia unofficial transcript, saved transfer evaluation",
+      "equivalentCode": "PSYC 1504",
+      "equivalentTitle": "Introduction to Psychology"
+    },
+    {
+      "id": "transfer-5",
+      "code": "SOPH-0062",
+      "title": "Introduction to Java Programming",
+      "provider": "Sophia Learning",
+      "sourceCourse": "Introduction to Java Programming",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-11-10",
+      "url": "https://www.sophia.org/online-courses/computer-science-and-it/introduction-to-java-programming/",
+      "linkLabel": "View Sophia course",
+      "note": "Accepted as CS 1103 · Programming 2.",
+      "source": "Official bachelor transcript, Sophia unofficial transcript, saved transfer evaluation",
+      "equivalentCode": "CS 1103",
+      "equivalentTitle": "Programming 2"
+    },
+    {
+      "id": "transfer-6",
+      "code": "SOPH-0027",
+      "title": "Ancient Greek Philosophers",
+      "provider": "Sophia Learning",
+      "sourceCourse": "Ancient Greek Philosophers",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-11-11",
+      "url": "https://www.sophia.org/online-courses/humanities/ancient-greek-philosophers/",
+      "linkLabel": "View Sophia course",
+      "note": "Accepted as PHIL 1402 · Introduction to Philosophy.",
+      "source": "Official bachelor transcript, Sophia unofficial transcript, saved transfer evaluation",
+      "equivalentCode": "PHIL 1402",
+      "equivalentTitle": "Introduction to Philosophy"
+    },
+    {
+      "id": "transfer-7",
+      "code": "SOPH-0008",
+      "title": "Approaches to Studying Religions",
+      "provider": "Sophia Learning",
+      "sourceCourse": "Approaches to Studying Religions",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-11-13",
+      "url": "https://www.sophia.org/online-courses/humanities/approaches-to-studying-religions/",
+      "linkLabel": "View Sophia course",
+      "note": "Accepted as EXT-CCB · External transfer civilization studies, culture, & belief.",
+      "source": "Official bachelor transcript, Sophia unofficial transcript, saved transfer evaluation",
+      "equivalentCode": "EXT-CCB",
+      "equivalentTitle": "External transfer civilization studies, culture, & belief"
+    },
+    {
+      "id": "transfer-8",
+      "code": "SOPH-0051",
+      "title": "Introduction to Sociology",
+      "provider": "Sophia Learning",
+      "sourceCourse": "Introduction to Sociology",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-11-14",
+      "url": "https://www.sophia.org/online-courses/social-science/introduction-to-sociology/",
+      "linkLabel": "View Sophia course",
+      "note": "Accepted as SOC 1502 · Introduction to Sociology.  Completion date is printed as 14 Nov 2025 on a transcript headed 13 Nov; source discrepancy retained.",
+      "source": "Official bachelor transcript, Sophia unofficial transcript, saved transfer evaluation",
+      "equivalentCode": "SOC 1502",
+      "equivalentTitle": "Introduction to Sociology"
+    },
+    {
+      "id": "transfer-9",
+      "code": "ACE subject credit",
+      "title": "Introduction to Web Design",
+      "provider": "Coursera",
+      "sourceCourse": "Google UX Design Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-10",
+      "code": "ACE subject credit",
+      "title": "Principles of User Experience (UX) Design",
+      "provider": "Coursera",
+      "sourceCourse": "Google UX Design Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-11",
+      "code": "ACE subject credit",
+      "title": "Advanced User Experience (UX) Design",
+      "provider": "Coursera",
+      "sourceCourse": "Google UX Design Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-12",
+      "code": "ACE subject credit",
+      "title": "Introduction to Computers",
+      "provider": "Coursera",
+      "sourceCourse": "Google IT Support Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-it-support",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-13",
+      "code": "ACE subject credit",
+      "title": "Systems Administration",
+      "provider": "Coursera",
+      "sourceCourse": "Google IT Support Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-it-support",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-14",
+      "code": "ACE subject credit",
+      "title": "Introduction to Cybersecurity",
+      "provider": "Coursera",
+      "sourceCourse": "Google IT Support Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-it-support",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-15",
+      "code": "ACE subject credit",
+      "title": "Networking Fundamentals",
+      "provider": "Coursera",
+      "sourceCourse": "Google IT Support Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-it-support",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-16",
+      "code": "ACE subject credit",
+      "title": "Operating Systems",
+      "provider": "Coursera",
+      "sourceCourse": "Google IT Support Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-it-support",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-17",
+      "code": "ACE subject credit",
+      "title": "Introduction to Project Management",
+      "provider": "Coursera",
+      "sourceCourse": "Google Project Management Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-project-management",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-18",
+      "code": "ACE subject credit",
+      "title": "Project Management",
+      "provider": "Coursera",
+      "sourceCourse": "Google Project Management Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-project-management",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-19",
+      "code": "ACE subject credit",
+      "title": "Agile Project Management",
+      "provider": "Coursera",
+      "sourceCourse": "Google Project Management Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-project-management",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-20",
+      "code": "ACE subject credit",
+      "title": "Introduction to Data Analytics",
+      "provider": "Coursera",
+      "sourceCourse": "Google Data Analytics Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-21",
+      "code": "ACE subject credit",
+      "title": "Introduction to Databases",
+      "provider": "Coursera",
+      "sourceCourse": "Google Data Analytics Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-22",
+      "code": "ACE subject credit",
+      "title": "Data Management with Spreadsheets",
+      "provider": "Coursera",
+      "sourceCourse": "Google Data Analytics Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-23",
+      "code": "ACE subject credit",
+      "title": "Introduction to R Programming",
+      "provider": "Coursera",
+      "sourceCourse": "Google Data Analytics Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-24",
+      "code": "ACE subject credit",
+      "title": "Introduction to Linux",
+      "provider": "Coursera",
+      "sourceCourse": "Google Cybersecurity Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-25",
+      "code": "ACE subject credit",
+      "title": "Attacks and Exploits",
+      "provider": "Coursera",
+      "sourceCourse": "Google Cybersecurity Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-26",
+      "code": "ACE subject credit",
+      "title": "Security Fundamentals",
+      "provider": "Coursera",
+      "sourceCourse": "Google Cybersecurity Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-27",
+      "code": "ACE subject credit",
+      "title": "Data Science",
+      "provider": "Coursera",
+      "sourceCourse": "IBM Introduction to Data Science Specialization",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-24",
+      "url": "https://www.coursera.org/specializations/introduction-data-science",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-28",
+      "code": "ACE subject credit",
+      "title": "Introduction to Machine Learning",
+      "provider": "Coursera",
+      "sourceCourse": "IBM Data Science Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-24",
+      "url": "https://www.coursera.org/professional-certificates/ibm-data-science",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    },
+    {
+      "id": "transfer-29",
+      "code": "ACE subject credit",
+      "title": "Basics of Python Programming",
+      "provider": "Coursera",
+      "sourceCourse": "IBM Data Analyst Professional Certificate",
+      "credits": 3,
+      "grade": "TR",
+      "completed": "2025-09-24",
+      "url": "https://www.coursera.org/professional-certificates/ibm-data-analyst",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
+      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
+      "equivalentCode": null,
+      "equivalentTitle": null
+    }
+  ],
+  "degrees": [
+    {
+      "id": "associate",
+      "title": "Associate of Science",
+      "subject": "Computer Science",
+      "date": "2026-04-01",
+      "gpa": "3.88 / 4.00",
+      "honors": "High Honors",
+      "credits": 60,
+      "image": "/degrees/associate.jpg",
+      "description": "Official associate diploma and transcript issued May 4, 2026"
+    },
+    {
+      "id": "bachelor",
+      "title": "Bachelor of Science",
+      "subject": "Computer Science",
+      "date": "2026-06-10",
+      "gpa": "3.77 / 4.00",
+      "honors": "Magna Cum Laude",
+      "credits": 120,
+      "image": "/degrees/bachelor.png",
+      "description": "Official bachelor diploma and transcript issued July 17, 2026"
+    }
+  ],
+  "sources": [
+    {
+      "title": "My university transaction report",
+      "description": "Report dated 27 Oct 2026: four paid entries total $427; ten assessment entries are marked covered by scholarship. Reconciled with four university payment emails."
+    },
+    {
+      "title": "My academic records",
+      "description": "Official associate and bachelor diplomas/transcripts, enrollment agreements, Sophia transcript, Credly ACE transcript and saved transfer evaluation. Only standalone diploma images are displayed."
+    },
+    {
+      "title": "My payment and admission emails",
+      "description": "Receipts and confirmations from UoPeople, Coursera, Sophia, ProctorU/Link and payment providers. Related searches covered all three connected mailboxes; unrelated messages and private identifiers are not published."
+    },
+    {
+      "title": "UoPeople transfer policy",
+      "description": "Check current eligibility and limits before planning your own route.",
+      "url": "https://catalog.uopeople.edu/ug_term1_item/undergraduate-admissions/transfer-students"
+    },
+    {
+      "title": "Sophia × UoPeople",
+      "description": "Official partner course list and transfer-fee arrangement, checked 27 Oct 2026.",
+      "url": "https://partneruopeople.sophia.org/"
+    },
+    {
+      "title": "Transferring credits to UoPeople",
+      "description": "Official process and eligibility guidance.",
+      "url": "https://www.uopeople.edu/become-student/admissions/transferring-credits/"
+    }
+  ],
+  "notes": [
+    "This is my historical experience, not a quoted price or a promise of admission, scholarship or transfer approval for someone else. Check the linked official policies for your own application.",
+    "The cash total includes $357 in Coursera transfer processing, $70 in post-graduation documents, $79 for Sophia and $52.08 for three ProctorU purchases, plus ₹2,099 for Coursera Plus. Scholarship awards and waived fees are excluded. Matching bank/payment-provider emails are not added again.",
+    "Scholarship amount awarded and amount used are different. The $2,100 award covered up to 15 assessments at $140 each. The report marks all 10 assessments taken as covered; it does not print the dollar value actually drawn.",
+    "Coursera rows are 21 accepted ACE subject-credit entries, not 21 separate certificate subscriptions. Program links are associated by matching ACE subject names to the Credly record; individual source-to-UoPeople destination pairs are not documented.",
+    "Sophia: 12 courses completed, 9 accepted, 27 transferred credits. Art History I, Introduction to Ethics and Workplace Communication were completed but do not appear as external credits on the final transcript. Calculus supplied 4 recommended credits but 3 were accepted.",
+    "Other Coursera purchases were reviewed and excluded: ten nutrition/fitness course receipts from 2024 and ten February 2025 receipts for Meta front-end courses and Prompt Engineering. These are not evidenced among the accepted degree transfer entries. The July 2025 Coursera trial was cancelled before billing. No refund or Parchment payment receipt was found in the targeted searches.",
+    "Dates use the university report for payments, diploma conferral dates for degrees, and India time for the admission milestone. Exam dates, purchase dates, document issue dates and degree award dates are distinct."
+  ],
+  "uopeopleCourses": [
+    {
+      "code": "UNIV 1001",
+      "title": "Online Education Strategies",
+      "term": "2025-06",
+      "grade": "A",
+      "credits": 3,
+      "assessmentStatus": "Covered by scholarship",
+      "assessmentRecorded": "2025-08-21"
+    },
+    {
+      "code": "ENGL 1102",
+      "title": "English Composition 2",
+      "term": "2025-09",
+      "grade": "B+",
+      "credits": 3,
+      "assessmentStatus": "Covered by scholarship",
+      "assessmentRecorded": "2025-11-07"
+    },
+    {
+      "code": "CS 1111",
+      "title": "Introduction to Computer Science",
+      "term": "2025-09",
+      "grade": "A",
+      "credits": 3,
+      "assessmentStatus": "Covered by scholarship",
+      "assessmentRecorded": "2025-11-07"
+    },
+    {
+      "code": "MATH 1201",
+      "title": "College Algebra",
+      "term": "2025-11",
+      "grade": "A",
+      "credits": 3,
+      "assessmentStatus": "Covered by scholarship",
+      "assessmentRecorded": "2026-01-16"
+    },
+    {
+      "code": "COM 2001",
+      "title": "Professional Communication",
+      "term": "2026-01",
+      "grade": "A",
+      "credits": 3,
+      "assessmentStatus": "Covered by scholarship",
+      "assessmentRecorded": "2026-04-02"
+    },
+    {
+      "code": "PHIL 1404",
+      "title": "Introduction to Global Ethics",
+      "term": "2026-01",
+      "grade": "A+",
+      "credits": 3,
+      "assessmentStatus": "Covered by scholarship",
+      "assessmentRecorded": "2026-04-02"
+    },
+    {
+      "code": "CS 2401",
+      "title": "Software Engineering 1",
+      "term": "2026-01",
+      "grade": "A",
+      "credits": 3,
+      "assessmentStatus": "Covered by scholarship",
+      "assessmentRecorded": "2026-04-02"
+    },
+    {
+      "code": "CS 3303",
+      "title": "Data Structures",
+      "term": "2026-01",
+      "grade": "A-",
+      "credits": 3,
+      "assessmentStatus": "Covered by scholarship",
+      "assessmentRecorded": "2026-04-02"
+    },
+    {
+      "code": "MATH 1302",
+      "title": "Discrete Mathematics",
+      "term": "2026-04",
+      "grade": "A+",
+      "credits": 3,
+      "assessmentStatus": "Covered by scholarship",
+      "assessmentRecorded": "2026-06-12"
+    },
+    {
+      "code": "CS 4402",
+      "title": "Comparative Programming Languages",
+      "term": "2026-04",
+      "grade": "B-",
+      "credits": 3,
+      "assessmentStatus": "Covered by scholarship",
+      "assessmentRecorded": "2026-06-12"
+    }
+  ],
+  "courseraDestinationCourses": [
+    {
+      "code": "EXT 0008",
+      "title": "External transfer elective 8"
+    },
+    {
+      "code": "CS 2205",
+      "title": "Web Programming 1"
+    },
+    {
+      "code": "EXT 0004",
+      "title": "External transfer elective 4"
+    },
+    {
+      "code": "CS 3305",
+      "title": "Web Programming 2"
+    },
+    {
+      "code": "CS 4407",
+      "title": "Data Mining and Machine Learning"
+    },
+    {
+      "code": "EXT 0010",
+      "title": "External transfer elective 10"
+    },
+    {
+      "code": "EXT-NST 0001",
+      "title": "External transfer natural science & technology 1"
+    },
+    {
+      "code": "EXT 0006",
+      "title": "External transfer elective 6"
+    },
+    {
+      "code": "CS 2204",
+      "title": "Communications and Networking"
+    },
+    {
+      "code": "CS 3307",
+      "title": "Operating Systems 2"
+    },
+    {
+      "code": "CS 1104",
+      "title": "Computer Systems"
+    },
+    {
+      "code": "EXT 0007",
+      "title": "External transfer elective 7"
+    },
+    {
+      "code": "CS 1102",
+      "title": "Programming 1"
+    },
+    {
+      "code": "CS 2203",
+      "title": "Databases 1"
+    },
+    {
+      "code": "EXT 0005",
+      "title": "External transfer elective 5"
+    },
+    {
+      "code": "EXT 0009",
+      "title": "External transfer elective 9"
+    },
+    {
+      "code": "EXT 0002",
+      "title": "External transfer elective 2"
+    },
+    {
+      "code": "EXT 0001",
+      "title": "External transfer elective 1"
+    },
+    {
+      "code": "CS 1101",
+      "title": "Programming Fundamentals"
+    },
+    {
+      "code": "CS 2301",
+      "title": "Operating Systems 1"
+    },
+    {
+      "code": "EXT 0003",
+      "title": "External transfer elective 3"
+    }
+  ],
+  "courseraDestinationNote": "Saved portal evaluation lists these 21 destination courses, but does not show individual source-to-destination pairs. Do not invent one-to-one equivalences.",
+  "completedNotTransferred": [
+    {
+      "title": "Art History I",
+      "url": "https://www.sophia.org/online-courses/humanities/art-history-i/",
+      "status": "Completed but not transferred to UoPeople"
+    },
+    {
+      "title": "Introduction to Ethics",
+      "url": "https://www.sophia.org/online-courses/humanities/introduction-to-ethics/",
+      "status": "Completed but not transferred to UoPeople"
+    },
+    {
+      "title": "Workplace Communication",
+      "url": "https://www.sophia.org/online-courses/english-and-communication/workplace-communication/",
+      "status": "Completed but not transferred to UoPeople"
+    }
+  ],
+  "guide": [
+    {
+      "title": "Start with the official evaluation",
+      "text": "My final UoPeople transcript records the credits actually accepted: 63 from Coursera and 27 from Sophia. My Credly and Sophia transcripts establish the source study; a course completion certificate alone does not establish that UoPeople transferred it.",
+      "source": "Official bachelor transcript; Credly transcript; Sophia transcript"
+    },
+    {
+      "title": "Use the portal and keep the evidence",
+      "text": "The transfer guide supplied during my studies used Portal → Admissions → Transfer Credits → New Request, followed by transcript upload and Request Tracking. Keep the accepted evaluation, receipt and final degree audit together. This describes my 2025–26 process; check the current portal and policy before planning your own transfer.",
+      "source": "transfer_credit_ENG.pdf, sections 3–4"
+    },
+    {
+      "title": "Separate learning costs from transfer fees",
+      "text": "I paid UoPeople $357 to transfer 21 Coursera subject-credit entries at $17 each. That payment is separate from Coursera subscriptions and any Sophia membership. Nine Sophia courses appear on the final transcript; no additional Sophia transfer payment appears in my UoPeople transaction report.",
+      "source": "Transaction report; transfer credit receipt; official bachelor transcript"
+    },
+    {
+      "title": "Check what counts before adding courses",
+      "text": "I completed 12 Sophia courses, but only 9 were transferred. Art History I, Introduction to Ethics and Workplace Communication are absent from my final transfer list. Sophia recommended 4 credits for Calculus I, while UoPeople accepted 3.",
+      "source": "Sophia transcript compared with official bachelor transcript"
+    },
+    {
+      "title": "Budget for the costs outside assessments",
+      "text": "All ten of my UoPeople course assessments were covered by scholarship. Proctoring, credit transfers and document fees still had separate charges. My award email confirms $2,100 of assessment support; a separate grant covered the application fee. The ledger confirms ten assessments used scholarship coverage.",
+      "source": "Financial Aid award and application-grant emails; transaction report; ProctorU receipts"
+    },
+    {
+      "title": "Finish the remaining university courses",
+      "text": "My bachelor’s total was 120 credits: 90 transferred and 30 earned through ten UoPeople courses. I began classes on June 19, 2025, earned the associate degree on April 1, 2026 and the bachelor’s on June 10, 2026. These were milestones on one study path; their credits and spending should not be added as two separate degrees.",
+      "source": "Enrollment agreement; official associate and bachelor diplomas/transcripts"
+    }
+  ]
+}
