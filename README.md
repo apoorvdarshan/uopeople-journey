@@ -2,6 +2,8 @@
 
 A local website documenting Apoorv Darshan's University of the People education: verified expenses, scholarships, milestones, transferred credits, courses taken at UoPeople, and both Computer Science diplomas.
 
+Live at **https://uopeople.apoorvdarshan.com**.
+
 ## Run locally
 
 ```sh
@@ -9,11 +11,19 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000. The server binds only to `127.0.0.1` and refuses to silently switch ports. No public hosting or remote repository is configured.
+Open http://localhost:3000. The dev server binds only to `127.0.0.1` and refuses to silently switch ports.
 
 ```sh
 npm run build
-node --test src/lib.test.js
+npm test
+```
+
+## Deploy
+
+The site is static and served by Cloudflare Workers static assets on the `uopeople.apoorvdarshan.com` custom domain (`wrangler.jsonc`).
+
+```sh
+npm run deploy
 ```
 
 ## Evidence and accounting
@@ -36,4 +46,4 @@ University of the People brand colours (plum, berry, pink, teal and gold) with A
 
 The site contains selected facts and standalone diploma images requested by the owner. Full transcripts, email bodies, address, date of birth, student identifiers, payment identifiers and credentials are not included. Diploma images are genuine supplied documents. The associate diploma is a phone photo, cleaned only for lighting: uneven light and the shadow removed and the paper whitened. Its wording, seal and signatures are unchanged.
 
-Research was read-only. Emails and source documents were not modified. The project is intended for localhost review; publication is a separate decision.
+Research was read-only. Emails and source documents were not modified. The owner chose to publish the site publicly.

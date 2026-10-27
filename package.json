@@ -7,7 +7,8 @@
     "dev": "vite --host 127.0.0.1 --port 3000 --strictPort",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1 --port 3000 --strictPort",
-    "test": "node --test src/lib.test.js"
+    "test": "node --test src/lib.test.js",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "react": "^19.3.1",
