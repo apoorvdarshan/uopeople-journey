@@ -30,7 +30,7 @@ The site shows US dollars by default. Visitors can switch every amount to any EC
 
 ## Design
 
-University of the People brand colours (plum, berry, pink, teal and gold) with Atkinson Hyperlegible Next. The hero shows all 40 three-credit courses on the transcript as squares, coloured by where each was earned. The UoPeople logo comes from Wikimedia Commons (CC BY 4.0) and is recoloured into `public/brand/`. This is a personal site, not affiliated with or endorsed by the university.
+University of the People brand colours (plum, berry, pink, teal and gold) with Atkinson Hyperlegible Next. Light and dark themes follow the visitor's system setting. The hero shows all 40 three-credit courses on the transcript as squares, coloured by where each was earned. The UoPeople logo comes from Wikimedia Commons (CC BY 4.0) and is recoloured into `public/brand/`. This is a personal site, not affiliated with or endorsed by the university.
 
 ## Privacy
 
