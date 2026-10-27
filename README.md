@@ -34,6 +34,6 @@ University of the People brand colours (plum, berry, pink, teal and gold) with A
 
 ## Privacy
 
-The site contains selected facts and standalone diploma images requested by the owner. Full transcripts, email bodies, address, date of birth, student identifiers, payment identifiers and credentials are not included. Diploma images are genuine supplied documents.
+The site contains selected facts and standalone diploma images requested by the owner. Full transcripts, email bodies, address, date of birth, student identifiers, payment identifiers and credentials are not included. Diploma images are genuine supplied documents. The associate diploma is a phone photo, cleaned only for lighting: uneven light and the shadow removed and the paper whitened. Its wording, seal and signatures are unchanged.
 
 Research was read-only. Emails and source documents were not modified. The project is intended for localhost review; publication is a separate decision.
