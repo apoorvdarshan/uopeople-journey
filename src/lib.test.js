@@ -62,7 +62,10 @@ test('accepted transfers and earned credits reconcile to the bachelor transcript
   assert.equal(credits(data.uopeopleCourses), 30);
   assert.equal(credits(data.courses)+credits(data.uopeopleCourses), data.summary.totalCredits);
   assert.equal(data.completedNotTransferred.length, 3);
-  assert.ok(data.courses.every(row=>safeUrl(row.url)?.startsWith('https://')));
+  assert.ok(data.courses.every(row => /^[A-Z]+(-[A-Z]+)? ?[0-9]{0,4}$|^EXT-CCB$/.test(row.code) && row.title));
+  assert.ok(data.courses.filter(row=>row.provider==='Sophia Learning').every(row=>row.sourceCourse && safeUrl(row.url)?.startsWith('https://')));
+  assert.equal(data.courseraSubjects.length, data.courses.filter(row=>row.provider==='Coursera').length);
+  assert.ok(data.courseraSubjects.every(row=>safeUrl(row.url)?.startsWith('https://')));
 });
 
 test('degrees use standalone local document images and actual conferral dates', () => {

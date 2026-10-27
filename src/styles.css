@@ -251,8 +251,14 @@ a { color: var(--berry); text-underline-offset: 0.18em; text-decoration-thicknes
 .details-content { padding-bottom: 36px; }
 .grade { font-weight: 700; }
 .detail-explanation { max-width: 46em; margin-bottom: 20px; color: var(--muted); }
-.equivalency-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px 24px; margin: 0; padding: 0; list-style: none; font-size: 0.9375rem; }
-.equivalency-list span { margin-right: 8px; font-weight: 700; color: var(--berry); }
+.certificate-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 28px 40px; }
+.certificate-list h3 { font-size: 1rem; line-height: 1.35; font-weight: 800; }
+.certificate-list h3 a { display: inline-flex; align-items: flex-start; gap: 4px; }
+.certificate-list h3 svg { width: 15px; height: 15px; flex: none; margin-top: 3px; }
+.certificate-list ul { margin: 8px 0 0; padding-left: 1.1em; color: var(--muted); font-size: 0.9375rem; }
+.certificate-list li + li { margin-top: 4px; }
+.source-link { display: flex; width: fit-content; max-width: 100%; margin-top: 4px; font-weight: 500; white-space: normal; }
+.source-link svg { flex: none; margin-top: 3px; }
 .extra-course-list { margin: 0; padding: 0; list-style: none; }
 .extra-course-list li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 24px; padding: 12px 0; border-bottom: 1px solid var(--line); }
 .extra-course-list a { display: inline-flex; align-items: center; gap: 4px; font-weight: 600; }
@@ -349,7 +355,6 @@ a { color: var(--berry); text-underline-offset: 0.18em; text-decoration-thicknes
   .expense-table .amount-cell { grid-column: 2; grid-row: 2; }
   .courses-table td:first-child { grid-column: 1 / -1; }
   .courses-table td.numeric::after { content: ' credits'; color: var(--muted); font-size: 0.875rem; }
-  .courses-table td:last-child { grid-column: 1 / -1; }
   .data-table .empty-state { grid-column: 1 / -1; }
   .timeline, .timeline-expanded { grid-template-columns: minmax(0, 1fr); gap: 28px; }
   .timeline::before { top: 6px; bottom: 6px; left: 8px; right: auto; width: 2px; height: auto; }

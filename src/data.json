@@ -286,484 +286,340 @@
   ],
   "courses": [
     {
-      "id": "transfer-0",
-      "code": "SOPH-0005",
-      "title": "Introduction to Statistics",
-      "provider": "Sophia Learning",
-      "sourceCourse": "Introduction to Statistics",
+      "id": "coursera-cs-1101",
+      "code": "CS 1101",
+      "title": "Programming Fundamentals",
+      "provider": "Coursera",
+      "sourceCourse": null,
       "credits": 3,
-      "grade": "TR",
-      "completed": "2025-11-01",
-      "url": "https://www.sophia.org/online-courses/math/introduction-to-statistics/",
-      "linkLabel": "View Sophia course",
-      "note": "Accepted as MATH 1280 · Introduction to Statistics.",
-      "source": "Official bachelor transcript, Sophia unofficial transcript, saved transfer evaluation",
-      "equivalentCode": "MATH 1280",
-      "equivalentTitle": "Introduction to Statistics"
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
     },
     {
-      "id": "transfer-1",
-      "code": "SOPH-0029",
-      "title": "Art History II",
+      "id": "coursera-cs-1102",
+      "code": "CS 1102",
+      "title": "Programming 1",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-cs-1104",
+      "code": "CS 1104",
+      "title": "Computer Systems",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-cs-2203",
+      "code": "CS 2203",
+      "title": "Databases 1",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-cs-2204",
+      "code": "CS 2204",
+      "title": "Communications and Networking",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-cs-2205",
+      "code": "CS 2205",
+      "title": "Web Programming 1",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-cs-2301",
+      "code": "CS 2301",
+      "title": "Operating Systems 1",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-cs-3305",
+      "code": "CS 3305",
+      "title": "Web Programming 2",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-cs-3307",
+      "code": "CS 3307",
+      "title": "Operating Systems 2",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-cs-4407",
+      "code": "CS 4407",
+      "title": "Data Mining and Machine Learning",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-ext-nst-0001",
+      "code": "EXT-NST 0001",
+      "title": "External transfer natural science & technology 1",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-ext-0001",
+      "code": "EXT 0001",
+      "title": "External transfer elective 1",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-ext-0002",
+      "code": "EXT 0002",
+      "title": "External transfer elective 2",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-ext-0003",
+      "code": "EXT 0003",
+      "title": "External transfer elective 3",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-ext-0004",
+      "code": "EXT 0004",
+      "title": "External transfer elective 4",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-ext-0005",
+      "code": "EXT 0005",
+      "title": "External transfer elective 5",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-ext-0006",
+      "code": "EXT 0006",
+      "title": "External transfer elective 6",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-ext-0007",
+      "code": "EXT 0007",
+      "title": "External transfer elective 7",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-ext-0008",
+      "code": "EXT 0008",
+      "title": "External transfer elective 8",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-ext-0009",
+      "code": "EXT 0009",
+      "title": "External transfer elective 9",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "coursera-ext-0010",
+      "code": "EXT 0010",
+      "title": "External transfer elective 10",
+      "provider": "Coursera",
+      "sourceCourse": null,
+      "credits": 3,
+      "note": "UoPeople's evaluation records this as Coursera transfer credit but does not say which of the 21 ACE subjects filled it.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report"
+    },
+    {
+      "id": "sophia-soph-0029",
+      "code": "AHIST 1401",
+      "title": "Art History",
       "provider": "Sophia Learning",
       "sourceCourse": "Art History II",
+      "sourceCode": "SOPH-0029",
       "credits": 3,
-      "grade": "TR",
       "completed": "2025-11-07",
       "url": "https://www.sophia.org/online-courses/humanities/art-history-ii/",
       "linkLabel": "View Sophia course",
-      "note": "Accepted as AHIST 1401 · Art History.",
-      "source": "Official bachelor transcript, Sophia unofficial transcript, saved transfer evaluation",
-      "equivalentCode": "AHIST 1401",
-      "equivalentTitle": "Art History"
+      "note": "Accepted as AHIST 1401 Art History in my UoPeople transfer credit evaluation.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report; official bachelor transcript; Sophia transcript"
     },
     {
-      "id": "transfer-2",
-      "code": "SOPH-0060",
-      "title": "Calculus I",
-      "provider": "Sophia Learning",
-      "sourceCourse": "Calculus I",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-11-08",
-      "url": "https://www.sophia.org/online-courses/math/calculus-i/",
-      "linkLabel": "View Sophia course",
-      "note": "Accepted as MATH 1211 · Calculus.  Sophia recommends 4 credits; UoPeople accepted 3.",
-      "source": "Official bachelor transcript, Sophia unofficial transcript, saved transfer evaluation",
-      "equivalentCode": "MATH 1211",
-      "equivalentTitle": "Calculus"
-    },
-    {
-      "id": "transfer-3",
-      "code": "SOPH-0047",
-      "title": "Introduction to Relational Databases",
-      "provider": "Sophia Learning",
-      "sourceCourse": "Introduction to Relational Databases",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-11-08",
-      "url": "https://www.sophia.org/online-courses/computer-science-and-it/introduction-to-relational-databases/",
-      "linkLabel": "View Sophia course",
-      "note": "Accepted as CS 3306 · Databases 2.",
-      "source": "Official bachelor transcript, Sophia unofficial transcript, saved transfer evaluation",
-      "equivalentCode": "CS 3306",
-      "equivalentTitle": "Databases 2"
-    },
-    {
-      "id": "transfer-4",
-      "code": "SOPH-0048",
-      "title": "Introduction to Psychology",
-      "provider": "Sophia Learning",
-      "sourceCourse": "Introduction to Psychology",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-11-10",
-      "url": "https://www.sophia.org/online-courses/social-science/introduction-to-psychology/",
-      "linkLabel": "View Sophia course",
-      "note": "Accepted as PSYC 1504 · Introduction to Psychology.",
-      "source": "Official bachelor transcript, Sophia unofficial transcript, saved transfer evaluation",
-      "equivalentCode": "PSYC 1504",
-      "equivalentTitle": "Introduction to Psychology"
-    },
-    {
-      "id": "transfer-5",
-      "code": "SOPH-0062",
-      "title": "Introduction to Java Programming",
+      "id": "sophia-soph-0062",
+      "code": "CS 1103",
+      "title": "Programming 2",
       "provider": "Sophia Learning",
       "sourceCourse": "Introduction to Java Programming",
+      "sourceCode": "SOPH-0062",
       "credits": 3,
-      "grade": "TR",
       "completed": "2025-11-10",
       "url": "https://www.sophia.org/online-courses/computer-science-and-it/introduction-to-java-programming/",
       "linkLabel": "View Sophia course",
-      "note": "Accepted as CS 1103 · Programming 2.",
-      "source": "Official bachelor transcript, Sophia unofficial transcript, saved transfer evaluation",
-      "equivalentCode": "CS 1103",
-      "equivalentTitle": "Programming 2"
+      "note": "Accepted as CS 1103 Programming 2 in my UoPeople transfer credit evaluation.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report; official bachelor transcript; Sophia transcript"
     },
     {
-      "id": "transfer-6",
-      "code": "SOPH-0027",
-      "title": "Ancient Greek Philosophers",
+      "id": "sophia-soph-0047",
+      "code": "CS 3306",
+      "title": "Databases 2",
+      "provider": "Sophia Learning",
+      "sourceCourse": "Introduction to Relational Databases",
+      "sourceCode": "SOPH-0047",
+      "credits": 3,
+      "completed": "2025-11-08",
+      "url": "https://www.sophia.org/online-courses/computer-science-and-it/introduction-to-relational-databases/",
+      "linkLabel": "View Sophia course",
+      "note": "Accepted as CS 3306 Databases 2 in my UoPeople transfer credit evaluation.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report; official bachelor transcript; Sophia transcript"
+    },
+    {
+      "id": "sophia-soph-0060",
+      "code": "MATH 1211",
+      "title": "Calculus",
+      "provider": "Sophia Learning",
+      "sourceCourse": "Calculus I",
+      "sourceCode": "SOPH-0060",
+      "credits": 3,
+      "completed": "2025-11-08",
+      "url": "https://www.sophia.org/online-courses/math/calculus-i/",
+      "linkLabel": "View Sophia course",
+      "note": "Accepted as MATH 1211 Calculus in my UoPeople transfer credit evaluation.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report; official bachelor transcript; Sophia transcript"
+    },
+    {
+      "id": "sophia-soph-0005",
+      "code": "MATH 1280",
+      "title": "Introduction to Statistics",
+      "provider": "Sophia Learning",
+      "sourceCourse": "Introduction to Statistics",
+      "sourceCode": "SOPH-0005",
+      "credits": 3,
+      "completed": "2025-11-01",
+      "url": "https://www.sophia.org/online-courses/math/introduction-to-statistics/",
+      "linkLabel": "View Sophia course",
+      "note": "Accepted as MATH 1280 Introduction to Statistics in my UoPeople transfer credit evaluation.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report; official bachelor transcript; Sophia transcript"
+    },
+    {
+      "id": "sophia-soph-0027",
+      "code": "PHIL 1402",
+      "title": "Introduction to Philosophy",
       "provider": "Sophia Learning",
       "sourceCourse": "Ancient Greek Philosophers",
+      "sourceCode": "SOPH-0027",
       "credits": 3,
-      "grade": "TR",
       "completed": "2025-11-11",
       "url": "https://www.sophia.org/online-courses/humanities/ancient-greek-philosophers/",
       "linkLabel": "View Sophia course",
-      "note": "Accepted as PHIL 1402 · Introduction to Philosophy.",
-      "source": "Official bachelor transcript, Sophia unofficial transcript, saved transfer evaluation",
-      "equivalentCode": "PHIL 1402",
-      "equivalentTitle": "Introduction to Philosophy"
+      "note": "Accepted as PHIL 1402 Introduction to Philosophy in my UoPeople transfer credit evaluation.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report; official bachelor transcript; Sophia transcript"
     },
     {
-      "id": "transfer-7",
-      "code": "SOPH-0008",
-      "title": "Approaches to Studying Religions",
+      "id": "sophia-soph-0048",
+      "code": "PSYC 1504",
+      "title": "Introduction to Psychology",
       "provider": "Sophia Learning",
-      "sourceCourse": "Approaches to Studying Religions",
+      "sourceCourse": "Introduction to Psychology",
+      "sourceCode": "SOPH-0048",
       "credits": 3,
-      "grade": "TR",
-      "completed": "2025-11-13",
-      "url": "https://www.sophia.org/online-courses/humanities/approaches-to-studying-religions/",
+      "completed": "2025-11-10",
+      "url": "https://www.sophia.org/online-courses/social-science/introduction-to-psychology/",
       "linkLabel": "View Sophia course",
-      "note": "Accepted as EXT-CCB · External transfer civilization studies, culture, & belief.",
-      "source": "Official bachelor transcript, Sophia unofficial transcript, saved transfer evaluation",
-      "equivalentCode": "EXT-CCB",
-      "equivalentTitle": "External transfer civilization studies, culture, & belief"
+      "note": "Accepted as PSYC 1504 Introduction to Psychology in my UoPeople transfer credit evaluation.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report; official bachelor transcript; Sophia transcript"
     },
     {
-      "id": "transfer-8",
-      "code": "SOPH-0051",
+      "id": "sophia-soph-0051",
+      "code": "SOC 1502",
       "title": "Introduction to Sociology",
       "provider": "Sophia Learning",
       "sourceCourse": "Introduction to Sociology",
+      "sourceCode": "SOPH-0051",
       "credits": 3,
-      "grade": "TR",
       "completed": "2025-11-14",
       "url": "https://www.sophia.org/online-courses/social-science/introduction-to-sociology/",
       "linkLabel": "View Sophia course",
-      "note": "Accepted as SOC 1502 · Introduction to Sociology.  Completion date is printed as 14 Nov 2025 on a transcript headed 13 Nov; source discrepancy retained.",
-      "source": "Official bachelor transcript, Sophia unofficial transcript, saved transfer evaluation",
-      "equivalentCode": "SOC 1502",
-      "equivalentTitle": "Introduction to Sociology"
+      "note": "Accepted as SOC 1502 Introduction to Sociology in my UoPeople transfer credit evaluation.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report; official bachelor transcript; Sophia transcript"
     },
     {
-      "id": "transfer-9",
-      "code": "ACE subject credit",
-      "title": "Introduction to Web Design",
-      "provider": "Coursera",
-      "sourceCourse": "Google UX Design Professional Certificate",
+      "id": "sophia-soph-0008",
+      "code": "EXT-CCB",
+      "title": "External transfer: civilization studies, culture & belief",
+      "provider": "Sophia Learning",
+      "sourceCourse": "Approaches to Studying Religions",
+      "sourceCode": "SOPH-0008",
       "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-20",
-      "url": "https://www.coursera.org/professional-certificates/google-ux-design",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-10",
-      "code": "ACE subject credit",
-      "title": "Principles of User Experience (UX) Design",
-      "provider": "Coursera",
-      "sourceCourse": "Google UX Design Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-20",
-      "url": "https://www.coursera.org/professional-certificates/google-ux-design",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-11",
-      "code": "ACE subject credit",
-      "title": "Advanced User Experience (UX) Design",
-      "provider": "Coursera",
-      "sourceCourse": "Google UX Design Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-20",
-      "url": "https://www.coursera.org/professional-certificates/google-ux-design",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-12",
-      "code": "ACE subject credit",
-      "title": "Introduction to Computers",
-      "provider": "Coursera",
-      "sourceCourse": "Google IT Support Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-20",
-      "url": "https://www.coursera.org/professional-certificates/google-it-support",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-13",
-      "code": "ACE subject credit",
-      "title": "Systems Administration",
-      "provider": "Coursera",
-      "sourceCourse": "Google IT Support Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-20",
-      "url": "https://www.coursera.org/professional-certificates/google-it-support",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-14",
-      "code": "ACE subject credit",
-      "title": "Introduction to Cybersecurity",
-      "provider": "Coursera",
-      "sourceCourse": "Google IT Support Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-20",
-      "url": "https://www.coursera.org/professional-certificates/google-it-support",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-15",
-      "code": "ACE subject credit",
-      "title": "Networking Fundamentals",
-      "provider": "Coursera",
-      "sourceCourse": "Google IT Support Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-20",
-      "url": "https://www.coursera.org/professional-certificates/google-it-support",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-16",
-      "code": "ACE subject credit",
-      "title": "Operating Systems",
-      "provider": "Coursera",
-      "sourceCourse": "Google IT Support Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-20",
-      "url": "https://www.coursera.org/professional-certificates/google-it-support",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-17",
-      "code": "ACE subject credit",
-      "title": "Introduction to Project Management",
-      "provider": "Coursera",
-      "sourceCourse": "Google Project Management Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-20",
-      "url": "https://www.coursera.org/professional-certificates/google-project-management",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-18",
-      "code": "ACE subject credit",
-      "title": "Project Management",
-      "provider": "Coursera",
-      "sourceCourse": "Google Project Management Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-20",
-      "url": "https://www.coursera.org/professional-certificates/google-project-management",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-19",
-      "code": "ACE subject credit",
-      "title": "Agile Project Management",
-      "provider": "Coursera",
-      "sourceCourse": "Google Project Management Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-20",
-      "url": "https://www.coursera.org/professional-certificates/google-project-management",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-20",
-      "code": "ACE subject credit",
-      "title": "Introduction to Data Analytics",
-      "provider": "Coursera",
-      "sourceCourse": "Google Data Analytics Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-20",
-      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-21",
-      "code": "ACE subject credit",
-      "title": "Introduction to Databases",
-      "provider": "Coursera",
-      "sourceCourse": "Google Data Analytics Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-20",
-      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-22",
-      "code": "ACE subject credit",
-      "title": "Data Management with Spreadsheets",
-      "provider": "Coursera",
-      "sourceCourse": "Google Data Analytics Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-20",
-      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-23",
-      "code": "ACE subject credit",
-      "title": "Introduction to R Programming",
-      "provider": "Coursera",
-      "sourceCourse": "Google Data Analytics Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-20",
-      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-24",
-      "code": "ACE subject credit",
-      "title": "Introduction to Linux",
-      "provider": "Coursera",
-      "sourceCourse": "Google Cybersecurity Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-20",
-      "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-25",
-      "code": "ACE subject credit",
-      "title": "Attacks and Exploits",
-      "provider": "Coursera",
-      "sourceCourse": "Google Cybersecurity Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-20",
-      "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-26",
-      "code": "ACE subject credit",
-      "title": "Security Fundamentals",
-      "provider": "Coursera",
-      "sourceCourse": "Google Cybersecurity Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-20",
-      "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-27",
-      "code": "ACE subject credit",
-      "title": "Data Science",
-      "provider": "Coursera",
-      "sourceCourse": "IBM Introduction to Data Science Specialization",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-24",
-      "url": "https://www.coursera.org/specializations/introduction-data-science",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-28",
-      "code": "ACE subject credit",
-      "title": "Introduction to Machine Learning",
-      "provider": "Coursera",
-      "sourceCourse": "IBM Data Science Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-24",
-      "url": "https://www.coursera.org/professional-certificates/ibm-data-science",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
-    },
-    {
-      "id": "transfer-29",
-      "code": "ACE subject credit",
-      "title": "Basics of Python Programming",
-      "provider": "Coursera",
-      "sourceCourse": "IBM Data Analyst Professional Certificate",
-      "credits": 3,
-      "grade": "TR",
-      "completed": "2025-09-24",
-      "url": "https://www.coursera.org/professional-certificates/ibm-data-analyst",
-      "linkLabel": "View certificate program",
-      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only",
-      "source": "Official bachelor transcript; certificate grouping matched to ACE subject recommendations in Credly transcript",
-      "equivalentCode": null,
-      "equivalentTitle": null
+      "completed": "2025-11-13",
+      "url": "https://www.sophia.org/online-courses/humanities/approaches-to-studying-religions/",
+      "linkLabel": "View Sophia course",
+      "note": "Accepted as EXT-CCB External transfer: civilization studies, culture & belief in my UoPeople transfer credit evaluation.",
+      "source": "UoPeople transfer credit evaluation (portal) and degree audit report; official bachelor transcript; Sophia transcript"
     }
   ],
   "degrees": [
@@ -920,93 +776,7 @@
       "assessmentRecorded": "2026-06-12"
     }
   ],
-  "courseraDestinationCourses": [
-    {
-      "code": "EXT 0008",
-      "title": "External transfer elective 8"
-    },
-    {
-      "code": "CS 2205",
-      "title": "Web Programming 1"
-    },
-    {
-      "code": "EXT 0004",
-      "title": "External transfer elective 4"
-    },
-    {
-      "code": "CS 3305",
-      "title": "Web Programming 2"
-    },
-    {
-      "code": "CS 4407",
-      "title": "Data Mining and Machine Learning"
-    },
-    {
-      "code": "EXT 0010",
-      "title": "External transfer elective 10"
-    },
-    {
-      "code": "EXT-NST 0001",
-      "title": "External transfer natural science & technology 1"
-    },
-    {
-      "code": "EXT 0006",
-      "title": "External transfer elective 6"
-    },
-    {
-      "code": "CS 2204",
-      "title": "Communications and Networking"
-    },
-    {
-      "code": "CS 3307",
-      "title": "Operating Systems 2"
-    },
-    {
-      "code": "CS 1104",
-      "title": "Computer Systems"
-    },
-    {
-      "code": "EXT 0007",
-      "title": "External transfer elective 7"
-    },
-    {
-      "code": "CS 1102",
-      "title": "Programming 1"
-    },
-    {
-      "code": "CS 2203",
-      "title": "Databases 1"
-    },
-    {
-      "code": "EXT 0005",
-      "title": "External transfer elective 5"
-    },
-    {
-      "code": "EXT 0009",
-      "title": "External transfer elective 9"
-    },
-    {
-      "code": "EXT 0002",
-      "title": "External transfer elective 2"
-    },
-    {
-      "code": "EXT 0001",
-      "title": "External transfer elective 1"
-    },
-    {
-      "code": "CS 1101",
-      "title": "Programming Fundamentals"
-    },
-    {
-      "code": "CS 2301",
-      "title": "Operating Systems 1"
-    },
-    {
-      "code": "EXT 0003",
-      "title": "External transfer elective 3"
-    }
-  ],
-  "courseraDestinationNote": "Saved portal evaluation lists these 21 destination courses, but does not show individual source-to-destination pairs. Do not invent one-to-one equivalences.",
+  "courseraDestinationNote": "These are the 21 Coursera ACE subjects on my official transcript. UoPeople accepted them as the 21 courses listed above, but its evaluation does not pair each subject with a course, so no one-to-one match is shown.",
   "completedNotTransferred": [
     {
       "title": "Art History I",
@@ -1054,6 +824,176 @@
       "title": "Finish the remaining university courses",
       "text": "My bachelor’s total was 120 credits: 90 transferred and 30 earned through ten UoPeople courses. I began classes on June 19, 2025, earned the associate degree on April 1, 2026 and the bachelor’s on June 10, 2026. These were milestones on one study path; their credits and spending should not be added as two separate degrees.",
       "source": "Enrollment agreement; official associate and bachelor diplomas/transcripts"
+    }
+  ],
+  "courseraSubjects": [
+    {
+      "title": "Introduction to Web Design",
+      "certificate": "Google UX Design Professional Certificate",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Principles of User Experience (UX) Design",
+      "certificate": "Google UX Design Professional Certificate",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Advanced User Experience (UX) Design",
+      "certificate": "Google UX Design Professional Certificate",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Introduction to Computers",
+      "certificate": "Google IT Support Professional Certificate",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-it-support",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Systems Administration",
+      "certificate": "Google IT Support Professional Certificate",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-it-support",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Introduction to Cybersecurity",
+      "certificate": "Google IT Support Professional Certificate",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-it-support",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Networking Fundamentals",
+      "certificate": "Google IT Support Professional Certificate",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-it-support",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Operating Systems",
+      "certificate": "Google IT Support Professional Certificate",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-it-support",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Introduction to Project Management",
+      "certificate": "Google Project Management Professional Certificate",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-project-management",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Project Management",
+      "certificate": "Google Project Management Professional Certificate",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-project-management",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Agile Project Management",
+      "certificate": "Google Project Management Professional Certificate",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-project-management",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Introduction to Data Analytics",
+      "certificate": "Google Data Analytics Professional Certificate",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Introduction to Databases",
+      "certificate": "Google Data Analytics Professional Certificate",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Data Management with Spreadsheets",
+      "certificate": "Google Data Analytics Professional Certificate",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Introduction to R Programming",
+      "certificate": "Google Data Analytics Professional Certificate",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Introduction to Linux",
+      "certificate": "Google Cybersecurity Professional Certificate",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Attacks and Exploits",
+      "certificate": "Google Cybersecurity Professional Certificate",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Security Fundamentals",
+      "certificate": "Google Cybersecurity Professional Certificate",
+      "completed": "2025-09-20",
+      "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Data Science",
+      "certificate": "IBM Introduction to Data Science Specialization",
+      "completed": "2025-09-24",
+      "url": "https://www.coursera.org/specializations/introduction-data-science",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Introduction to Machine Learning",
+      "certificate": "IBM Data Science Professional Certificate",
+      "completed": "2025-09-24",
+      "url": "https://www.coursera.org/professional-certificates/ibm-data-science",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
+    },
+    {
+      "title": "Basics of Python Programming",
+      "certificate": "IBM Data Analyst Professional Certificate",
+      "completed": "2025-09-24",
+      "url": "https://www.coursera.org/professional-certificates/ibm-data-analyst",
+      "linkLabel": "View certificate program",
+      "note": "Credential association inferred by matching exact ACE subject names; UoPeople transcript itself lists Coursera only"
     }
   ]
 }

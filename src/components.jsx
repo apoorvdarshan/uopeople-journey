@@ -34,8 +34,8 @@ function Evidence({source, note, label = 'Details'}) {
 
 export function CreditMosaic({courses, uopeopleCourses, totalCredits = 120}) {
   const tiles = useMemo(() => [
-    ...courses.filter(course => course.provider === 'Coursera').map(course => ({key: course.id, kind: 'coursera', title: course.title, detail: `Coursera transfer, from the ${course.sourceCourse}`})),
-    ...courses.filter(course => course.provider === 'Sophia Learning').map(course => ({key: course.id, kind: 'sophia', title: course.title, detail: `Sophia Learning transfer${course.equivalentCode && !course.equivalentCode.startsWith('EXT') ? `, accepted as ${course.equivalentCode}` : ''}`})),
+    ...courses.filter(course => course.provider === 'Coursera').map(course => ({key: course.id, kind: 'coursera', title: course.title, detail: `${course.code}, transferred in from Coursera ACE credit`})),
+    ...courses.filter(course => course.provider === 'Sophia Learning').map(course => ({key: course.id, kind: 'sophia', title: course.title, detail: `${course.code}, transferred in from Sophia’s ${course.sourceCourse}`})),
     ...uopeopleCourses.map(course => ({key: course.code, kind: 'uopeople', title: course.title, detail: `${course.code} at UoPeople, grade ${course.grade}, ${dateLabel(course.term, true)}`})),
   ], [courses, uopeopleCourses]);
   const [active, setActive] = useState(null);
@@ -183,7 +183,7 @@ export function Courses({courses, summary, earnedCredits}) {
   const [query, setQuery] = useState('');
   const [provider, setProvider] = useState('All providers');
   const providers = ['All providers', ...new Set(courses.map(course => course.provider).filter(Boolean))];
-  const filtered = courses.filter(course => (provider === 'All providers' || course.provider === provider) && [course.title, course.code, course.provider, course.sourceCourse].join(' ').toLowerCase().includes(query.trim().toLowerCase()));
+  const filtered = courses.filter(course => (provider === 'All providers' || course.provider === provider) && [course.title, course.code, course.provider, course.sourceCourse].filter(Boolean).join(' ').toLowerCase().includes(query.trim().toLowerCase()));
   const credits = filtered.reduce((sum, course) => sum + (Number(course.credits) || 0), 0);
   const totalCredits = summary.totalCredits || 120;
   const byProvider = providers.slice(1).map(name => ({name, credits: courses.filter(course => course.provider === name).reduce((sum, course) => sum + Number(course.credits || 0), 0)})).sort((a, b) => b.credits - a.credits);
@@ -202,7 +202,7 @@ export function Courses({courses, summary, earnedCredits}) {
           </button>)}
           <div className="provider-earned"><i className="swatch swatch-uopeople"/><span>Earned at UoPeople</span><strong>{earnedCredits}</strong></div>
         </div>
-        <p className="transfer-note">Course links are a starting point. Open a row’s details for the exact evidence and any mapping limits.</p>
+        <p className="transfer-note">Each row is a UoPeople course my transfer credit counted as, from my transfer evaluation and degree audit.</p>
       </aside>
       <div className="course-list">
         <div className="course-controls">
@@ -211,14 +211,15 @@ export function Courses({courses, summary, earnedCredits}) {
         </div>
         <div className="table-scroll" tabIndex={0} role="region" aria-label="Scrollable transfer course records">
           <table className="data-table courses-table">
-            <caption className="sr-only">Accepted transfer credits and original course links</caption>
-            <thead><tr><th>Course</th><th>Provider</th><th className="numeric">Credits</th><th>Source</th></tr></thead>
+            <caption className="sr-only">Accepted transfer credits: the UoPeople course each counted as, and where it came from</caption>
+            <thead><tr><th>Accepted as</th><th>Transferred from</th><th className="numeric">Credits</th></tr></thead>
             <tbody>{filtered.length ? filtered.map((course, index) => <tr key={course.id || `${course.code}-${index}`}>
-              <td><strong className="row-title">{course.title}</strong>{course.sourceCourse && course.sourceCourse !== course.title && <span className="row-secondary">{course.sourceCourse}</span>}{course.equivalentCode && !course.equivalentCode.startsWith('EXT') && <span className="row-secondary">Accepted as {course.equivalentCode}</span>}<Evidence source={course.source} note={course.note}/></td>
-              <td><span className="provider-tag"><i className={`swatch swatch-${providerKind(course.provider)}`}/>{course.provider}</span></td>
+              <td><span className="course-code">{course.code}</span><strong className="row-title">{course.title}</strong><Evidence source={course.source} note={course.note}/></td>
+              <td><span className="provider-tag"><i className={`swatch swatch-${providerKind(course.provider)}`}/>{course.provider}</span>{course.sourceCourse
+                ? (safeUrl(course.url) ? <a className="course-link source-link" href={safeUrl(course.url)} target="_blank" rel="noreferrer">{course.sourceCourse}<Icon name="external"/></a> : <span className="row-secondary">{course.sourceCourse}</span>)
+                : <span className="row-secondary">ACE subject credit</span>}</td>
               <td className="numeric">{course.credits}</td>
-              <td>{safeUrl(course.url) ? <a className="course-link" href={safeUrl(course.url)} target="_blank" rel="noreferrer">{course.linkLabel || 'Course'}<Icon name="external"/></a> : <span className="muted">Not linked</span>}</td>
-            </tr>) : <tr><td colSpan="4" className="empty-state">No courses match this search. <button type="button" className="button-quiet" onClick={() => {setQuery(''); setProvider('All providers');}}>Clear filters</button></td></tr>}</tbody>
+            </tr>) : <tr><td colSpan="3" className="empty-state">No courses match this search. <button type="button" className="button-quiet" onClick={() => {setQuery(''); setProvider('All providers');}}>Clear filters</button></td></tr>}</tbody>
           </table>
         </div>
         <div className="table-footnote" aria-live="polite">{filtered.length} of {courses.length} courses, {credits} credits shown</div>
@@ -275,7 +276,11 @@ export function Sources({sources, notes, lastVerified}) {
 }
 
 export function StudyDetails({data}) {
-  const {uopeopleCourses = [], courseraDestinationCourses = [], completedNotTransferred = [], guide = []} = data;
+  const {uopeopleCourses = [], courseraSubjects = [], completedNotTransferred = [], guide = []} = data;
+  const certificates = [...new Set(courseraSubjects.map(subject => subject.certificate))].map(name => {
+    const subjects = courseraSubjects.filter(subject => subject.certificate === name);
+    return {name, url: subjects[0].url, subjects};
+  });
   const earned = uopeopleCourses.reduce((sum, course) => sum + (Number(course.credits) || 0), 0);
   return <div className="section study-details">
     {uopeopleCourses.length > 0 && <details>
@@ -287,9 +292,15 @@ export function StudyDetails({data}) {
         </table>
       </div>
     </details>}
-    {courseraDestinationCourses.length > 0 && <details>
-      <summary><span>Where the Coursera credits landed<small>{courseraDestinationCourses.length} destination entries in my saved evaluation</small></span><Icon name="chevron"/></summary>
-      <div className="details-content"><p className="detail-explanation">{data.courseraDestinationNote || 'These are the UoPeople requirements satisfied by Coursera transfer credit.'}</p><ul className="equivalency-list">{courseraDestinationCourses.map((course, index) => <li key={`${course.code}-${index}`}><span>{course.code}</span>{course.title}</li>)}</ul></div>
+    {certificates.length > 0 && <details>
+      <summary><span>The Coursera courses behind the {courseraSubjects.length * 3} credits<small>{courseraSubjects.length} ACE subjects from {certificates.length} certificate programs</small></span><Icon name="chevron"/></summary>
+      <div className="details-content">
+        <p className="detail-explanation">{data.courseraDestinationNote}</p>
+        <div className="certificate-list">{certificates.map(certificate => <section key={certificate.name}>
+          <h3>{safeUrl(certificate.url) ? <a href={safeUrl(certificate.url)} target="_blank" rel="noreferrer">{certificate.name}<Icon name="external"/></a> : certificate.name}</h3>
+          <ul>{certificate.subjects.map(subject => <li key={subject.title}>{subject.title}</li>)}</ul>
+        </section>)}</div>
+      </div>
     </details>}
     {completedNotTransferred.length > 0 && <details>
       <summary><span>Completed, but not transferred<small>Extra learning, not part of the 90 transferred credits</small></span><Icon name="chevron"/></summary>

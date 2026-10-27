@@ -22,7 +22,7 @@ The sanitized dataset is `src/data.json`. Confirmed spending is **USD 581.89**: 
 
 The application fee was grant-covered. A USD 2,100 assessment scholarship was awarded; the report confirms ten assessments covered, without printing the amount actually drawn. Awards, waived fees, bank notifications for already-counted purchases, and renewal cancellations are not added to personal cash spending. Ten unrelated February 2025 Coursera certificate purchases are excluded from this degree pathway.
 
-The official transcript records 63 Coursera transfer credits, 27 Sophia transfer credits and 30 credits earned at UoPeople. Coursera certificate links reflect ACE subject associations; the records do not establish individual source-to-destination equivalents. Historical personal results are not guarantees for future applicants. See the site's Sources & notes for official policy links and limitations.
+The official transcript records 63 Coursera transfer credits, 27 Sophia transfer credits and 30 credits earned at UoPeople. The transfer table lists the UoPeople course each transfer was accepted as, from the portal's transfer credit evaluation and degree audit. Sophia rows name the exact Sophia course accepted. For Coursera, the evaluation lists the 21 accepted courses but not which ACE subject filled each, so the 21 subjects are listed separately by certificate rather than paired. Historical personal results are not guarantees for future applicants. See the site's Sources & notes for official policy links and limitations.
 
 ## Currency
 
